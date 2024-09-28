@@ -37,5 +37,21 @@ document.addEventListener("DOMContentLoaded", () => {
       rotation: -375,
       duration: 2.5,
       ease: "expo.inOut",
+    })
+    .to(".img-group .item:nth-child(4)", {
+      y: -40,
+      duration: 2.5,
+      ease: "expo.inOut",
+    })
+    .to(".img-group .item:nth-child(5)", {
+      y: -30,
+      rotation: 15,
+      duration: 2.5,
+      ease: "expo.inOut",
+    })
+    .to(".img-group .item:nth-child(3)", {
+      y: 70,
+      duration: 2.5,
+      ease: "expo.inOut",
     });
 });

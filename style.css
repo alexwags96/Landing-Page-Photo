@@ -54,6 +54,17 @@ header .toggle-btn span{
     background-color: #333333;
     transition: all ease 0.5s;
 }
+header .toggle-btn-active span:nth-child(1){
+    transform: rotate(45deg);
+    transform-origin: left;
+}
+header .toggle-btn-active span:nth-child(2){
+    transform: rotate(-40deg) translateX(-2px);
+    /* transform-origin: left; */
+}
+header .toggle-btn-active span:nth-child(3){
+    opacity: 0;
+}
 .hero-sec{
     padding-top: 170px;
 }
