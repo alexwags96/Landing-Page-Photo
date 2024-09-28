@@ -16,7 +16,7 @@ body{
 }
 main{
     max-height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 img{
     max-width: 100%;
